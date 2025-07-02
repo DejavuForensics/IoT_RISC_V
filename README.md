@@ -25,9 +25,9 @@ A major adversity in combating malicious applications is the fact that antivirus
 On average, antiviruses attested false negatives in 86.2% of the cases, with a standard deviation of 23.2%. Wrongly claiming the benignity of malware can lead to irrecoverable damage. A person or institution, for example, may come to trust a particular application even though it is malware.
 On average, the antiviruses  omitted opinion in 6.4% of the cases, with a standard deviation of 22.5%. The omission of the diagnosis points to the limitation of these antiviruses that have limited blocklists for detection of malware in real time.
 
-It is included as adversity, in the combat to malicious applications, the fact of the commercial antiviruses do not possess a pattern in the classification of the malwares as seen in Table 3. We choose 3 of 100 RISC-V malwares samples in order to exemplify the miscellaneous classifications of commercial antiviruses. The chosen malware are VirusShare_2bec093105081bdadd311c704366fa3, VirusShare_0db6c39a7f13a6a4afe28fbf615263f and VirusShare_024069b370a21a9ff6b5eed9377ab28. In this way, the time when manufacturers react to a new virtual plague is affected dramatically. As there is no pattern, antiviruses give the names that they want, for example, a company can identify a malware as "ELF:Tsunami-CU [Trj]" and a second company identify it as "HEUR:Backdoor.Linux.Tsunami.bh". Therefore, the lack of a pattern, besides the no-sharing of information among the antivirus manufacturers, hinders the fast and effective detection of a malicious application.
+It is included as adversity, in the combat to malicious applications, the fact of the commercial antiviruses do not possess a pattern in the classification of the malwares as seen in Table 2. We choose 3 of 100 RISC-V malwares samples in order to exemplify the miscellaneous classifications of commercial antiviruses. The chosen malware are VirusShare_2bec093105081bdadd311c704366fa3, VirusShare_0db6c39a7f13a6a4afe28fbf615263f and VirusShare_024069b370a21a9ff6b5eed9377ab28. In this way, the time when manufacturers react to a new virtual plague is affected dramatically. As there is no pattern, antiviruses give the names that they want, for example, a company can identify a malware as "ELF:Tsunami-CU [Trj]" and a second company identify it as "HEUR:Backdoor.Linux.Tsunami.bh". Therefore, the lack of a pattern, besides the no-sharing of information among the antivirus manufacturers, hinders the fast and effective detection of a malicious application.
 
-###### Table 2 Results of 64 commercial antiviruses:
+###### Table 1 Results of 64 commercial antiviruses:
 
 Antivirus |	Deteccion (%) |	False Negative (%) |	Omission (%)
 --------- | ------------- | ------------------ | -------------
@@ -96,7 +96,7 @@ Antiy-AVL | 0% | 92% | 8% |
 Zillya | 0% | 98% | 2% | 
 TotalDefense | 0% | 1% | 99% | 
 
-###### Table 3 Miscellaneous classifications of commercial antiviruses:
+###### Table 2 Miscellaneous classifications of commercial antiviruses:
 
 Antivirus |	2bec093105081bdadd311c704366fa3 |	0db6c39a7f13a6a4afe28fbf615263f |	024069b370a21a9ff6b5eed9377ab28
 --------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
